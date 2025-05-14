@@ -106,7 +106,7 @@ async function sendMessage(chat, messageText, attachments, sender) {
     if (moderationResponse.flagged) {
       const updateFlagResponse = await updateFlagCount(chat, sender._id);
       if (updateFlagResponse.success) {
-        console.log(checkBan(chat, sender._id));
+        await checkBan(chat, sender._id);
         throw moderationResponse.message;
       }
       throw `Something went wrong during update flag-count`;
