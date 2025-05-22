@@ -1,0 +1,602 @@
+updated seed
+
+5	0	README.md
+updted readme
+
+-	-	.DS_Store
+-	-	backend/.DS_Store
+fixed ui
+
+1	1	backend/controllers/notification.js
+12	1	backend/controllers/posts.js
+1	0	backend/routes/messages.js
+3	1	backend/routes/users.js
+2	1	frontend/src/features/account/Account.jsx
+8	0	frontend/src/features/account/EditAccount.jsx
+5	2	frontend/src/features/auth/utils.js
+ mergeMerge branch 'chat' of https://github.com/sivaanand13/liv-echo into chat
+fixed bug
+
+4	4	frontend/src/components/Profile.jsx
+fixed stuff
+
+10	0	backend/controllers/chats.js
+5	1	backend/controllers/posts.js
+7	0	backend/routes/messages.js
+4	0	frontend/src/features/posts/SinglePost.jsx
+Merge bi merge`anch 'chat' of https://github.com/sivaanand13/liv-echo into chat
+fixed stuff
+
+10	2	frontend/src/features/auth/utils.js
+5	1	frontend/src/firebase/utils.js
+fixed edit accoutn sync bug
+
+58	59	frontend/src/features/account/EditAccount.jsx
+3	3	frontend/src/features/auth/utils.js
+ mergingMerge branch 'chat' of https://github.com/sivaanand13/liv-echo into chat
+added readme
+
+95	2	README.md
+fixedn edit account
+
+3	2	frontend/src/features/account/EditAccount.jsx
+fixed user name swapped
+
+1	1	backend/controllers/users.js
+fixed bug in moderationi
+
+8	7	backend/routes/moderation.js
+16	14	backend/utils/text_image_moderation.js
+fixing bugs
+
+9	5	frontend/src/features/dms/DMsListItem.jsx
+Meri mrge branch 'chat' of https://github.com/sivaanand13/liv-echo into chat
+fixed duplicate reports, fixed ui bug on dms
+
+19	12	backend/controllers/posts.js
+1	1	backend/routes/posts.js
+2	0	frontend/src/features/account/EditAccount.jsx
+3	3	frontend/src/features/dms/DMsListItem.jsx
+4	5	frontend/src/features/posts/CommentListItem.jsx
+26	19	frontend/src/features/posts/SinglePost.jsx
+mergeMerge branch 'chat' of https://github.com/sivaanand13/liv-echo into chat
+fixed ui
+
+2	0	frontend/src/features/posts/SinglePost.jsx
+fixes missing import
+
+1	1	backend/controllers/comments.js
+ mergeMerge branch 'chat' of https://github.com/sivaanand13/liv-echo into chat
+added cache invalidaiton
+
+4	0	backend/controllers/comments.js
+4	2	backend/routes/posts.js
+mergiing``Merge branch 'chat' of https://github.com/sivaanand13/liv-echo into chat
+aadded email verification
+
+1	0	backend/controllers/users.js
+5	0	backend/middleware/authMiddleware.js
+4	2	frontend/src/features/account/Account.jsx
+1	1	frontend/src/features/account/FriendCard.jsx
+1	1	frontend/src/features/auth/SignIn.jsx
+3	0	frontend/src/features/auth/utils.js
+32	14	frontend/src/features/posts/CreatePost.jsx
+16	3	frontend/src/features/posts/EditPostDialog.jsx
+1	3	frontend/src/features/users/UserCard.jsx
+1	1	frontend/src/features/users/UserProfile.jsx
+15	1	frontend/src/firebase/utils.js
+2	2	frontend/src/routes/AppRoutes.jsx
+added real-time for post
+
+5	5	backend/routes/posts.js
+4	1	frontend/src/features/posts/PostFeed.jsx
+2	1	frontend/src/features/posts/SinglePost.jsx
+fixing bugs in posts
+
+20	5	backend/controllers/comments.js
+5	3	backend/controllers/posts.js
+17	4	backend/routes/posts.js
+3	2	frontend/package.json
+1	0	frontend/src/features/posts/SinglePost.jsx
+merging main to chatMerge branch 'main' of https://github.com/sivaanand13/liv-echo into chat
+ui fixes
+
+3	15	backend/controllers/posts.js
+5	0	frontend/src/contexts/NotificationContext.jsx
+22	11	frontend/src/features/account/EditBanner.jsx
+19	5	frontend/src/features/account/EditProfile.jsx
+1	1	frontend/src/features/posts/SearchPosts.jsx
+fixed bugs
+
+14	1	backend/controllers/posts.js
+86	0	backend/package-lock.json
+2	1	backend/package.json
+16	0	backend/redis/redisConnection.js
+39	0	backend/redis/redisUtils.js
+1	0	frontend/src/components/StaticPaginatedList.jsx
+1	1	frontend/src/features/posts/PostFeed.jsx
+12	16	frontend/src/features/posts/SinglePost.jsx
+fixed syncing issues on add friend
+
+7	8	backend/controllers/users.js
+18	1	frontend/src/contexts/AuthContext.jsx
+3	1	frontend/src/features/account/Account.jsx
+5	0	frontend/src/features/account/FriendCard.jsx
+8	7	frontend/src/features/users/UserProfile.jsx
+mergegerge branch 'main' of https://github.com/sivaanand13/liv-echo into chat
+chnaged ui
+
+27	0	backend/controllers/users.js
+11	0	backend/websockets/chatNamespace.js
+1	0	frontend/src/features/account/Account.jsx
+Merge branch 'friendRequest' of https://github.com/sivaanand13/liv-echo into chat
+Merge branch 'main' of https://github.com/sivaanand13/liv-echo into chat
+changed add/remove friend ui
+
+60	31	backend/controllers/users.js
+1	0	backend/models/user.js
+89	1	backend/routes/users.js
+1	1	frontend/src/components/StaticPaginatedList.jsx
+39	13	frontend/src/features/account/Account.jsx
+135	0	frontend/src/features/account/FriendCard.jsx
+44	0	frontend/src/features/account/accountUtils.js
+15	28	frontend/src/features/users/UserProfile.jsx
+19	29	frontend/src/features/users/userUtils.js
+Merge branch 'chat' of https://github.com/sivaanand13/liv-echo into chat
+fixe dsome ui
+
+12	0	backend/controllers/users.js
+52	51	frontend/src/features/account/Account.jsx
+269	208	frontend/src/features/users/UserProfile.jsx
+Merge branch 'chat' of https://github.com/sivaanand13/liv-echo into chatmerging `# Please enter a commit message to explain why this merge is necessary,
+rmed bg on post not found and add nav
+
+1	1	backend/routes/posts.js
+11	5	frontend/src/components/NotFound.jsx
+5	2	frontend/src/components/StaticPaginatedList.jsx
+4	2	frontend/src/features/posts/CreatePost.jsx
+1	1	frontend/src/features/posts/SinglePost.jsx
+mergin:wq Merge branch 'chat' of https://github.com/sivaanand13/liv-echo into chat
+fixed comments deleete options
+
+170	162	backend/controllers/comments.js
+87	98	backend/routes/posts.js
+4	1	frontend/src/features/posts/CommentListItem.jsx
+1	1	frontend/src/features/posts/PostFeed.jsx
+1	6	frontend/src/features/posts/SinglePost.jsx
+updated ui on serch posts
+
+18	8	backend/controllers/posts.js
+84	42	frontend/src/features/posts/SearchPosts.jsx
+fixing sort bug on feed page
+
+10	10	frontend/src/features/posts/PostFeed.jsx
+updated feed
+
+3	2	frontend/src/features/posts/PostCard.jsx
+updated feed page ui and post card ui
+
+240	0	frontend/src/components/StaticPaginatedList.jsx
+92	13	frontend/src/features/posts/PostCard.jsx
+93	56	frontend/src/features/posts/PostFeed.jsx
+6	5	frontend/src/routes/AppRoutes.jsx
+cleaned up modals in edit account
+
+6	1	frontend/src/features/account/EditAccount.jsx
+0	1	frontend/src/features/account/EditBio.jsx
+7	3	frontend/src/utils/validation.js
+Merge branch 'chat' of https://github.com/sivaanand13/liv-echo into chat
+fixed editbanner loading and invaoid input
+
+30	25	backend/controllers/users.js
+157	137	backend/routes/users.js
+78	46	frontend/src/features/account/Account.jsx
+80	63	frontend/src/features/account/EditBanner.jsx
+Merge branch 'chat' of https://github.com/sivaanand13/liv-echo into chat
+changed email vaidaton
+
+171	5	frontend/package-lock.json
+5	0	frontend/package.json
+7	4	frontend/src/utils/validation.js
+30	1	package-lock.json
+Merge branch 'chat' of https://github.com/sivaanand13/liv-echo into chat tmerging# Please enter a commit message to explain why this merge is necessary,
+fixed error on sign in
+
+3	3	frontend/src/features/auth/SignIn.jsx
+Merge branch 'chat' of https://github.com/sivaanand13/liv-echo into chat
+ui updaes
+
+12	17	frontend/src/features/posts/PostFeed.jsx
+47	21	frontend/src/features/posts/SearchPosts.jsx
+Merge branch 'chat' of https://github.com/sivaanand13/liv-echo into chat
+removed username on signin
+
+2	35	frontend/src/features/auth/SignIn.jsx
+1	2	frontend/src/features/auth/utils.js
+5	4	frontend/src/features/navigation/NavLinks.jsx
+fixing wrong file name for vercel
+
+0	0	frontend/{versal.json => vercel.json}
+fixing versal.json
+
+1	1	frontend/versal.json
+fxing bug
+
+1	1	frontend/src/features/users/UserProfile.jsx
+adding versal.json for routing
+
+3	0	frontend/versal.json
+adding versal.json to use react-dom in deployment
+
+3	0	frontend/versal.json
+someitng
+
+3	2	backend/routes/messages.js
+13	0	frontend/src/features/chat/chatUtils.js
+added user in profile
+
+2	1	backend/controllers/users.js
+1	1	backend/routes/users.js
+2	1	frontend/src/features/account/EditAccount.jsx
+3	1	frontend/src/features/users/UserProfile.jsx
+fixed leave dm bug in frontend
+
+4	0	backend/controllers/chats.js
+3	2	frontend/src/features/chat/chatUtils.js
+2	5	frontend/src/sockets/namespaces/chatSocket.js
+fixed bugs in sign up where server user is fetchec right after firebase user is created leading to 404
+
+2	1	backend/controllers/users.js
+11	1	backend/routes/users.js
+5	2	frontend/src/components/Profile.jsx
+9	4	frontend/src/contexts/AuthContext.jsx
+241	225	frontend/src/features/auth/SignIn.jsx
+34	4	frontend/src/features/auth/SignUp.jsx
+27	18	frontend/src/features/auth/utils.js
+fixed bugs on froentend
+
+2	2	frontend/src/components/Profile.jsx
+1	1	frontend/src/features/group-chat/EditGroupChatDialog.jsx
+allow cors for * for dev
+
+1	1	backend/server.js
+1	1	backend/websockets/index.js
+fixed bug on backend uri
+
+1	7	frontend/src/sockets/socketManager.js
+1	0	frontend/src/utils/requests/axios.js
+configuring backend/fronend hostnames
+
+7	1	backend/server.js
+3	1	backend/websockets/index.js
+5	3	frontend/src/components/Profile.jsx
+1	1	frontend/src/features/account/Account.jsx
+1	6	frontend/src/utils/requests/axios.js
+0	7	frontend/vite.config.js
+fixed server.js
+
+6	3	backend/server.js
+fixing server.js
+
+5	0	backend/routes/index.js
+0	3	backend/server.js
+setting up for deployment
+
+14	1	backend/firebase/initFirebaseAdmin.js
+5	16	backend/server.js
+added users search and users profile
+
+3	0	backend/controllers/users.js
+0	1	backend/routes/users.js
+4206	0	frontend/src/assets/errors/not_found.svg
+2	1	frontend/src/components/CustomLink.jsx
+14	7	frontend/src/components/NotFound.jsx
+4	1	frontend/src/components/UserListItem.jsx
+1	0	frontend/src/features/account/EditAccount.jsx
+15	1	frontend/src/features/chat/MessageListItem.jsx
+7	1	frontend/src/features/users/UserCard.jsx
+137	1	frontend/src/features/users/UserProfile.jsx
+18	0	frontend/src/features/users/userUtils.js
+4	1	frontend/src/routes/AppRoutes.jsx
+added search users
+
+12	3	backend/controllers/users.js
+30	1	backend/package-lock.json
+2	1	backend/package.json
+12	1	backend/routes/users.js
+3	2	backend/utils/validation.js
+10	10	frontend/package-lock.json
+1	0	frontend/package.json
+-	-	frontend/src/assets/users/search.jpg
+20	0	frontend/src/components/EditButton.jsx
+43	0	frontend/src/components/ErrorPage.jsx
+17	0	frontend/src/components/KeyValDisplay.jsx
+52	0	frontend/src/components/NotFound.jsx
+246	0	frontend/src/components/PaginatedList.jsx
+24	0	frontend/src/components/Pagination.jsx
+66	11	frontend/src/features/account/Account.jsx
+0	1	frontend/src/features/account/EditAccount.jsx
+121	0	frontend/src/features/account/EditBio.jsx
+34	0	frontend/src/features/account/accountUtils.js
+2	1	frontend/src/features/navigation/NavLinks.jsx
+79	0	frontend/src/features/users/UserCard.jsx
+28	0	frontend/src/features/users/UserSearch.jsx
+15	0	frontend/src/features/users/userUtils.js
+2	0	frontend/src/routes/AppRoutes.jsx
+4	4	frontend/src/theme/themeConfig.js
+added update profile
+
+41	9	frontend/src/features/account/Account.jsx
+11	3	frontend/src/features/account/EditAccount.jsx
+134	0	frontend/src/features/account/EditProfile.jsx
+23	0	frontend/src/features/account/accountUtils.js
+added edit banner
+
+43	13	backend/controllers/users.js
+1	0	backend/models/user.js
+63	9	backend/routes/users.js
+2	1	frontend/src/components/Profile.jsx
+16	4	frontend/src/contexts/AuthContext.jsx
+97	368	frontend/src/features/account/Account.jsx
+389	0	frontend/src/features/account/EditAccount.jsx
+139	0	frontend/src/features/account/EditBanner.jsx
+36	0	frontend/src/features/account/accountUtils.js
+2	0	frontend/src/sockets/namespaces/chatSocket.js
+mergeing remoteMerge branch 'chat' of https://github.com/sivaanand13/liv-echo into chat
+added editChat, changeAdmin
+
+135	14	backend/controllers/chats.js
+13	0	backend/controllers/messages.js
+1	0	backend/controllers/users.js
+13	3	backend/models/chat.js
+24	0	backend/models/message.js
+156	22	backend/routes/chats.js
+1	1	frontend/src/components/ChatSidebar.jsx
+5	6	frontend/src/components/Modal.jsx
+14	3	frontend/src/features/chat/ChatActionsSidebar.jsx
+25	5	frontend/src/features/chat/DeleteChatDialog.jsx
+20	6	frontend/src/features/chat/LeaveChatDialog.jsx
+2	1	frontend/src/features/chat/MessageDisplay.jsx
+25	1	frontend/src/features/chat/chatUtils.js
+148	0	frontend/src/features/group-chat/ChangeAdminDialog.jsx
+38	20	frontend/src/features/{chat/EditChatDialog.jsx => group-chat/EditGroupChatDialog.jsx}
+53	0	frontend/src/features/group-chat/groupChatUtils.js
+2	0	frontend/src/sockets/namespaces/chatSocket.js
+45	4	frontend/src/stores/chatStore.js
+17	0	frontend/src/utils/requests/axios.js
+mergeing local repo with remote Merge branch 'chat' of https://github.com/sivaanand13/liv-echo into chat
+added buttons for edit/leave/delete chat
+
+8	0	backend/cloudinary/cloudinary.js
+1	0	backend/models/chat.js
+1	1	frontend/src/components/Loading.jsx
+0	0	frontend/src/components/LongTextDisplay.jsx
+26	13	frontend/src/features/chat/ChatActionsSidebar.jsx
+43	0	frontend/src/features/chat/DeleteChatDialog.jsx
+194	0	frontend/src/features/chat/EditChatDialog.jsx
+12	5	frontend/src/features/chat/MessageDisplay.jsx
+7	5	frontend/src/features/dms/DMsListItem.jsx
+7	1	frontend/src/features/group-chat/GroupChatListItem.jsx
+mergingMerge branch 'chat' of https://github.com/sivaanand13/liv-echo into chat
+fixed remove message bug
+
+-	-	.DS_Store
+12	12	backend/controllers/messages.js
+17	2	backend/controllers/users.js
+3	2	backend/routes/messages.js
+15	0	backend/routes/users.js
+12	1	frontend/src/contexts/AuthContext.jsx
+39	0	frontend/src/features/chat/ChatActionsSidebar.jsx
+36	0	frontend/src/features/chat/LeaveChatDialog.jsx
+3	5	frontend/src/features/chat/MessageDisplay.jsx
+1	1	frontend/src/features/chat/chatUtils.js
+added optmistic message add and chaged messge view a bit
+
+3	3	backend/controllers/chats.js
+27	8	backend/controllers/messages.js
+11	7	backend/routes/messages.js
+14	0	frontend/package-lock.json
+1	0	frontend/package.json
+1	1	frontend/src/components/ChatSidebar.jsx
+148	126	frontend/src/features/chat/MessageDisplay.jsx
+1	1	frontend/src/features/chat/MessageListItem.jsx
+25	2	frontend/src/features/chat/chatUtils.js
+3	3	frontend/src/features/dms/DirectMessages.jsx
+3	3	frontend/src/features/group-chat/GroupChats.jsx
+3	0	frontend/src/features/users/UserProfile.jsx
+3	7	frontend/src/sockets/namespaces/chatSocket.js
+33	4	frontend/src/stores/chatStore.js
+added admim delete and members display for chat
+
+5	2	backend/controllers/messages.js
+7	2	backend/routes/messages.js
+1	1	frontend/src/components/Profile.jsx
+13	3	frontend/src/components/UserListItem.jsx
+11	8	frontend/src/features/auth/utils.js
+22	0	frontend/src/features/chat/CurrentChatMembers.jsx
+38	15	frontend/src/features/chat/MessageDisplay.jsx
+3	2	frontend/src/features/chat/MessageListItem.jsx
+10	1	frontend/src/firebase/utils.js
+added remove messages
+
+1	1	backend/cloudinary/cloudinary.js
+11	4	backend/controllers/messages.js
+4	3	backend/routes/messages.js
+5	2	frontend/src/components/ChatListItem.jsx
+1	1	frontend/src/components/Profile.jsx
+14	6	frontend/src/features/account/Account.jsx
+74	36	frontend/src/features/chat/MessageDisplay.jsx
+120	0	frontend/src/features/chat/MessageListItem.jsx
+16	1	frontend/src/features/chat/chatUtils.js
+15	2	frontend/src/features/dms/DMsListItem.jsx
+9	1	frontend/src/features/group-chat/GroupChatListItem.jsx
+3	10	frontend/src/sockets/namespaces/chatSocket.js
+2	2	frontend/src/theme/themeConfig.js
+17	0	frontend/src/utils/requests/axios.js
+added bgcolor based on text for profiles
+
+7	0	frontend/package-lock.json
+1	0	frontend/package.json
+10	2	frontend/src/components/Profile.jsx
+5	3	frontend/src/features/chat/MessageDisplay.jsx
+1	0	frontend/src/features/dms/CreateDM.jsx
+12	8	frontend/src/features/dms/DMsListItem.jsx
+fixed screen size issues
+
+7	4	frontend/src/components/ChatListItem.jsx
+1	1	frontend/src/components/ChatSidebar.jsx
+19	10	frontend/src/features/chat/MessageDisplay.jsx
+1	1	frontend/src/features/dms/DirectMessages.jsx
+1	1	frontend/src/features/group-chat/GroupChats.jsx
+1	1	frontend/src/stores/chatStore.js
+imporved theme
+
+3	3	frontend/src/theme/themeConfig.js
+added create dms, create group chat, added realtime messages sync, added preview recent message
+
+3	1	.gitignore
+2	0	README.md
+54	0	backend/cloudinary/cloudinary.js
+10	0	backend/cloudinary/config.js
+1	4	backend/config/dbConnection.js
+251	0	backend/controllers/chats.js
+183	0	backend/controllers/messages.js
+66	1	backend/controllers/users.js
+13	3	backend/firebase/firebaseUtils.js
+17	0	backend/imageProcessing/sharp.js
+22	0	backend/middleware/authMiddleware.js
+7	0	backend/middleware/index.js
+5	0	backend/middleware/loggingMiddleware.js
+9	0	backend/middleware/uploadMiddleware.js
+14	2	backend/models/chat.js
+5	13	backend/models/message.js
+8	0	backend/models/settings.js
+3	2	backend/models/user.js
+1106	14	backend/package-lock.json
+11	2	backend/package.json
+237	0	backend/routes/chats.js
+4	0	backend/routes/index.js
+223	0	backend/routes/messages.js
+52	8	backend/routes/users.js
+32	10	backend/server.js
+8	0	backend/ssl/configSSL.js
+31	0	backend/utils/chat.validation.js
+100	0	backend/websockets/chatNamespace.js
+18	0	backend/websockets/index.js
+1	1	frontend/index.html
+209	4	frontend/package-lock.json
+4	1	frontend/package.json
+-	-	frontend/public/logo.png
+1	0	frontend/public/logo.svg
+7	4	frontend/src/app/App.jsx
+-	-	frontend/src/assets/logo.png
+-	-	frontend/src/assets/logo/png/logo-color.png
+-	-	frontend/src/assets/logo/png/logo-grayscale-inverted.png
+-	-	frontend/src/assets/logo/png/logo-grayscale.png
+-	-	frontend/src/assets/logo/png/logo-no-background.png
+1	0	frontend/src/assets/logo/svg/logo-color.svg
+1	0	frontend/src/assets/logo/svg/logo-grayscale-inverted.svg
+1	0	frontend/src/assets/logo/svg/logo-grayscale.svg
+1	0	frontend/src/assets/logo/svg/logo-no-background.svg
+21	0	frontend/src/components/ChatListItem.jsx
+77	0	frontend/src/components/ChatSidebar.jsx
+27	0	frontend/src/components/CustomList.jsx
+30	0	frontend/src/components/Modal.jsx
+18	0	frontend/src/components/Profile.jsx
+40	0	frontend/src/components/UserListItem.jsx
+25	8	frontend/src/contexts/AuthContext.jsx
+6	1	frontend/src/features/auth/SignOut.jsx
+1	7	frontend/src/features/auth/SignUp.jsx
+206	0	frontend/src/features/chat/MessageDisplay.jsx
+33	0	frontend/src/features/chat/chatUtils.js
+159	0	frontend/src/features/dms/CreateDM.jsx
+32	0	frontend/src/features/dms/DMsListItem.jsx
+57	0	frontend/src/features/dms/DirectMessages.jsx
+39	0	frontend/src/features/dms/dmUtils.js
+190	0	frontend/src/features/group-chat/CreateGroupChat.jsx
+38	0	frontend/src/features/group-chat/GroupChatListItem.jsx
+49	0	frontend/src/features/group-chat/GroupChats.jsx
+65	0	frontend/src/features/group-chat/groupChatUtils.js
+1	1	frontend/src/features/landing/Landing.jsx
+2	4	frontend/src/features/navigation/NavBar.jsx
+4	0	frontend/src/features/navigation/NavLinks.jsx
+0	25	frontend/src/index.css
+5	2	frontend/src/main.jsx
+9	3	frontend/src/routes/AppRoutes.jsx
+71	0	frontend/src/sockets/namespaces/chatSocket.js
+61	0	frontend/src/sockets/socketManager.js
+100	0	frontend/src/stores/chatStore.js
+41	0	frontend/src/theme/themeConfig.js
+36	3	frontend/src/utils/requests/axios.js
+12	5	frontend/vite.config.js
+added reauth
+
+21	5	frontend/src/firebase/utils.js
+Merge branch 'auth' of https://github.com/sivaanand13/liv-echo into auth
+updated settings
+
+0	0	backend/controllers/chats.js
+5	6	backend/controllers/users.js
+38	0	backend/models/chat.js
+33	0	backend/models/cloudinaryAsset.js
+48	0	backend/models/message.js
+10	0	backend/models/settings.js
+51	40	backend/models/user.js
+reverted errors back to signle line on signup
+
+1	1	backend/routes/users.js
+1	5	frontend/src/components/Errors.jsx
+2	2	frontend/src/features/auth/SignUp.jsx
+1	0	frontend/src/features/auth/utils.js
+updaed error display
+
+-	-	.DS_Store
+15	0	frontend/src/components/Errors.jsx
+12	5	frontend/src/features/auth/SignUp.jsx
+Added project structures Created Mongoose schema for user Set up firebase Added frontend and backend for signup with firebase and sync with backend
+
+2	0	.gitignore
+1	0	backend/.gitignore
+19	0	backend/config/dbConnection.js
+42	0	backend/controllers/users.js
+13	0	backend/firebase/firebaseUtils.js
+8	0	backend/firebase/initFirebaseAdmin.js
+46	0	backend/models/user.js
+2853	0	backend/package-lock.json
+22	0	backend/package.json
+11	0	backend/routes/index.js
+122	0	backend/routes/users.js
+23	0	backend/server.js
+257	0	backend/utils/validation.js
+24	0	frontend/.gitignore
+12	0	frontend/README.md
+33	0	frontend/eslint.config.js
+16	0	frontend/index.html
+4639	0	frontend/package-lock.json
+36	0	frontend/package.json
+-	-	frontend/public/logo.png
+35	0	frontend/src/app/App.jsx
+-	-	frontend/src/assets/landing/landing1.jpg
+-	-	frontend/src/assets/logo.png
+20	0	frontend/src/components/CustomLink.jsx
+18	0	frontend/src/components/Loading.jsx
+30	0	frontend/src/contexts/AuthContext.jsx
+25	0	frontend/src/features/account/Account.jsx
+23	0	frontend/src/features/auth/SignOut.jsx
+352	0	frontend/src/features/auth/SignUp.jsx
+52	0	frontend/src/features/auth/utils.js
+76	0	frontend/src/features/landing/Landing.jsx
+96	0	frontend/src/features/navigation/NavBar.jsx
+25	0	frontend/src/features/navigation/NavBarLink.jsx
+31	0	frontend/src/features/navigation/NavLinks.jsx
+8	0	frontend/src/firebase/config.js
+25	0	frontend/src/firebase/utils.js
+25	0	frontend/src/index.css
+15	0	frontend/src/main.jsx
+18	0	frontend/src/routes/AppRoutes.jsx
+9	0	frontend/src/routes/PrivateRoute.jsx
+45	0	frontend/src/utils/requests/axios.js
+264	0	frontend/src/utils/validation.js
+7	0	frontend/vite.config.js
+24	0	package-lock.json
+5	0	package.json

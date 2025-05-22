@@ -39,6 +39,7 @@ import FriendCard from "./FriendCard.jsx";
 import CustomList from "../../components/CustomList.jsx";
 import chatSocket from "../../sockets/namespaces/chatSocket.js";
 import { useNotification } from "../../contexts/NotificationContext.jsx";
+import Loading from "../../components/Loading.jsx";
 export default function Account() {
   const { user, refreshAccount } = useContext(AuthContext);
   const theme = useTheme();
@@ -107,6 +108,9 @@ export default function Account() {
     }, [notificatons]);
   }
   // console.log("posts: ", posts);
+  if (!user.name || !user.username) {
+    return <Loading />;
+  }
   return (
     <Box
       sx={{

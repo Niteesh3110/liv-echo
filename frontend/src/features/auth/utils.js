@@ -40,6 +40,10 @@ async function signUpUser(name, email, username, dob, password) {
     throw "Fix errors before submitting!";
   }
 
+  if (name.length > 500) {
+    throw `Name length cannot exceed 500!`;
+  }
+
   // try {
   //   const moderationResponse = await userInfoModeration(name, []);
   //   if (moderationResponse.flagged) {
@@ -148,6 +152,10 @@ async function editUser(name, email, username, dob, password, oldPassword) {
   } catch (e) {
     console.log(e);
     throw "Fix errors before submitting!";
+  }
+
+  if (name.length > 500) {
+    throw `Name length cannot exceed 500!`;
   }
 
   try {
