@@ -29,7 +29,7 @@ _The Express API is deployed on Render's free tier, which will spin down deploym
 
 ### Branches
 
-- Master (main): https://github.com/sivaanand13/liv-echo
+- Master (main): (https://github.com/Niteesh3110/liv-echo)
 
 ## Getting Started
 
